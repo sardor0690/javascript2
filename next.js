@@ -7,9 +7,21 @@ var middleNumber = num1;
 if (num2 > num1 && num2 < num3) {
   middleNumber = num2;
   alert("O'rtadagi son: " + middleNumber);
-} else if (num3 > num1 && num3 < num2) {
+}else if (num2 > num3 && num2 < num1) {
+  middleNumber = num2;
+  alert("O'rtadagi son: " + middleNumber);
+}else if (num3 > num1 && num3 < num2) {
   middleNumber = num3;
   alert("O'rtadagi son: " + middleNumber);
+}else if (num3 > num2 && num3 < num1) {
+  middleNumber = num3;
+  alert("O'rtadagi son: " + middleNumber);
+}else if (num1 > num2 && num1 < num3 ) {
+  middleNumber = num1;
+  alert("O'rtadagi son: " + middleNumber);
+} else if (num1 > num3 && num1 < num2 ) {
+  middleNumber = num1;
+  alert("O'rtadagi son: " + middleNumber);
 }else{
-    alert("kechirasiz xatolik yuz")
+    alert("kechirasiz xatolik yuz berdi")
 }
